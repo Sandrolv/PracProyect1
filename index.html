@@ -17,7 +17,8 @@
         para que se pueda ver desde un movil-->
         <title>MyNature</title> <!--Titulo del proyecto al ingresar a la pagina (aparece arriba del todo
         donde esta la opcion de cerrar la ventana)-->
-        <link rel="stylesheet" href="./CSS/estilos.css"> <!--Para traer un archivo css-->       
+        <link rel="stylesheet" href="./CSS/estilos.css"> <!--Para traer un archivo css-->    
+           
     </head>
     
     <!--Solo esta parte lo visualizara el usuario-->
@@ -26,7 +27,14 @@
         
         <!--Etiquetas contenedoras, lleva mas etiquetas dentro y va ayudar a generar la estructura de la pagina-->
         <header> 
-            <nav></nav><!--En caso de que quieras que lleve una barra de navegacion-->
+            <nav> <!--En caso de que quieras que lleve una barra de navegacion-->
+                <ul class="main-nav">
+                    <li class="main-nav__item"><a href="">Inicio</a></li>
+                    <li class="main-nav__item"><a href="">Productos</a></li>
+                    <li class="main-nav__item"><a href="">Carrito</a></li>
+                    <li class="main-nav__item"><a href="">Salir</a></li>  
+                </ul>
+            </nav>
         </header>
 
         <main>
@@ -42,6 +50,8 @@
             <h6>Solo exiten 6 tamaños de titulos</h6>
 
             <p>Soy un texto</p>
+            <p class="parrafo1" >Soy un texto</p>
+            <p id="parrafo2">Soy un texto</p>
 
             <a href="#">Llevo a un lugar</a> <!--Para redireccionar este inferfaz a otra-->
 
@@ -127,11 +137,35 @@
                     <input type="password" id="contraseña" name="contraseña" placeholder="Escribe tu contraseña" required>
                 </label>
 
-                <input type="submit" name="" id="">
+                <br>
+                <br>
+                <br>
+
+                <input type="submit" value="Click Here" name="" id="">
+                <button type="submit"> Presioname </button>
                 
             </form>
            
 
+            <!-- Forma poco practica de hacer select -->
+
+            <select name="cursos" id="">
+                <option value="Java Script">Java Script</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CSS">CSS</option>
+                <option value="Python">Python</option>
+            </select>
+
+            <!-- Forma practica -->
+
+            <input list="cursos">
+            <datalist id="cursos">
+                <option value="Java Script"></option>
+                <option value="HTML5"></option>
+                <option value="CSS"></option>
+                <option value="Python"></option>
+            </datalist>
+            
 
         </main>
 
