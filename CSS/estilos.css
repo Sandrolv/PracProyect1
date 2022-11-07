@@ -63,3 +63,17 @@ body {
     color: blanchedalmond;
     
 }
+
+/* Combinadores */
+
+.combinadores {
+    margin: 20px 0px;
+}
+
+.combinadores div + p {
+    color: brown;
+}
+
+.combinadores-child div p {
+    color: blue;
+}
