@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 75%;
+    font-size: 62.5%;
 }
 
 main h1{
@@ -76,4 +76,10 @@ body {
 
 .combinadores-child div p {
     color: blue;
+}
+
+/* CONTACTO HTML */
+
+main {
+    
 }
