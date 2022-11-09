@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: ;
+}
+section {
+
+    width: 30%;
+    margin: 250px auto;
+}
+
+.nombre-perso {
+    width: 38%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    position: relative;
+    top: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+.nombre-perso p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.imagen-perso {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+    
+}
+.imagen-perso img {
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.Corazon-perso {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    right: 80px;
+
+}
+.Corazon-perso p {
+    position: relative;
+    bottom: 22px;
+}
+
+.Corazon-perso img{
+    height: 30px;
+    width: 30px;
+}
+
+
+/* OPCION1 */
+.Descargar-perso {
+    display: flex;
+    gap: 5px;
+    background-color: #F2F2F2;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    position: relative;
+    bottom: 70px;
+    right: -80px;
+    transform:rotate(-30deg);
+    -ms-transform:rotate(-30deg); /* IE 9 */
+    -webkit-transform:rotate(-30deg); /* Opera, Chrome, and Safari */
+}
+
+.Descargar-perso figure {
+   width: 25%; 
+   
+}
+
+.Descargar-perso img {   
+    width: 18px;
+    height: 18px;
+    float: right;
+
+}
+
+.Descargar-perso p {
+
+    width: 75%;
+    margin: auto 0;
+    font-size: 1.5rem;
+}
+
+

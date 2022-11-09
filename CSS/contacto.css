@@ -22,8 +22,10 @@ main {
 section {
 
     width: 80%;
-    min-width: 100px;
+    /* Cuando usemos un min widht min or max, necesitamos tener un width base en porcentaje*/
+    min-width: 100px; 
     max-width: 500px;
+    /* En este caso no necesitamos un height base */
     min-height: auto;
     max-height: auto;
     margin: 0 auto;
